@@ -18,3 +18,8 @@ main button {
     width: 100%;
     margin: 0 auto;
 }
+
+.disabled {
+    opacity: 0.5; /* Tornar o elemento translúcido */
+    pointer-events: none; /* Desabilitar interações com o elemento */
+}
