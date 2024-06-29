@@ -27,9 +27,9 @@ main button {
     margin-bottom: 0;
 }
 
-/* Parte referente a desabilitar o item: */
-.disabled {
-    opacity: 0.5; /* Tornar o elemento translúcido */
+/* Parte referente a desabilitar o item (apenas titulo e img): */
+.disabled > h3, .disabled img {
+    opacity: 0.5;  /* Tornar o elemento translúcido */
     pointer-events: none; /* Desabilitar interações com o elemento */
 }
 
